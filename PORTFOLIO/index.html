@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Abigirl Khoza | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
   <header>
     <h1>Hi, I'm Abigirl Khoza</h1>
     <p>Aspiring Full Stack Developer | TEFL Certified | Tech Enthusiast</p>
@@ -12,26 +16,67 @@
 
   <section class="about">
     <h2>About Me</h2>
-    <p>I’m passionate about technology, education, and building meaningful digital experiences. I'm currently learning web development and using GitHub to showcase my journey.</p>
+    <p>I’m passionate about technology, education, and helping young people discover opportunity through upskilling. I'm learning web development and using GitHub to document my growth.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul class="skill-icons">
+      <li><i class="fab fa-html5"></i> HTML</li>
+      <li><i class="fab fa-css3-alt"></i> CSS</li>
+      <li><i class="fab fa-js"></i> JavaScript</li>
+      <li><i class="fas fa-chalkboard-teacher"></i> TEFL</li>
+      <li><i class="fas fa-users"></i> Communication</li>
+    </ul>
   </section>
 
   <section class="projects">
     <h2>Projects</h2>
-    <ul>
-      <li>🌱 Portfolio Website (You’re here!)</li>
-      <li>📚 Flashcard App (coming soon)</li>
-      <li>📝 To-Do List App (coming soon)</li>
-    </ul>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1"/>
+        <h3>Portfolio Website</h3>
+        <p>This live website you’re viewing right now!</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2"/>
+        <h3>To-Do List App</h3>
+        <p>Basic app to track daily tasks (Coming Soon)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://via.placeholder.com/200x150" alt="Photo 1">
+      <img src="https://via.placeholder.com/200x150" alt="Photo 2">
+      <img src="https://via.placeholder.com/200x150" alt="Photo 3">
+    </div>
   </section>
 
   <section class="contact">
-    <h2>Contact</h2>
-    <p>Email: khozaabigirl@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/abigaill0105" target="_blank">github.com/YOUR-USERNAME</a></p>
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="social">
+    <h2>Connect With Me</h2>
+    <div class="social-links">
+      <a href="https://github.com/YOURUSERNAME" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:khozaabigirl@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/YOURLINKEDIN" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
   </section>
 
   <footer>
     <p>© 2025 Abigirl Khoza. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
